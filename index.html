@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixbay Homepage Clone</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+<section id="Pixbay-home">
+<!-- hero section -->
+<div class="hero-section">
+    <!-- navigation -->
+    <div class="nav flex">
+        <div id="logo">Pixbay</div>
+
+        <div id="search-bar" class="flex">
+            <div id="search-icon" class="flex-centered">
+                <img src="images/search-interface-symbol.png" alt="search">
+                <span>Search Pixabay</span>
+            </div>
+            <div id="all-images" class="flex-centered">
+                <span>All images</span>
+                <img src="images/down.png" alt="dropdown">
+            </div>
+        </div>
+
+
+        <div id="nav-buttons" class="flex-centered ">
+            <div class="transparent-btn flex-centered ">
+                <span>Explore</span>
+                <img src="images/down.png " alt="dropdown ">
+            </div>
+            <div class="transparent-btn ">Log in</div>
+            <div class="light-btn ">Join</div>
+            <div class="green-btn flex-centered ">
+                <img src="images/upload.png " alt="upload ">
+                <span>Upload</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- navigation responsive -->
+    <div class="nav-responsive">
+        <div class="flex-centered gap-20">
+            <div id="logo-responsive">PX</div>
+        <img src="images/search-interface-symbol.png" alt="search">
+        </div>
+        
+        <div id="nav-buttons" class="flex-centered ">
+            <div class="transparent-btn ">Log in</div>
+            <div class="light-btn ">Join</div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+        </div>
+    </div>
+
+    <div class="hero-overlay flex">
+        <div class="flex-column" style="margin-top: 150px;">
+            <h2>Stunning royalty-free images & royalty-free stock</h2>
+            <p>Over 4.5 million+ high quality stock images, videos and music shared by our talented community.</p>
+            <div id="search-bar2" class="flex">
+                <div id="search-icon" class="flex-centered">
+                    <img src="images/search-interface-symbol.png" alt="search">
+                    <span>Search for all images on Pixabay</span>
+                </div>
+                <div id="all-images" class="flex-centered">
+                    <span>All images</span>
+                    <img src="images/down.png" alt="dropdown">
+                </div>
+            </div>
+
+            <div id="search-bar2-responsive">
+                <div id="search-icon" class="flex-centered">
+                    <img src="images/search-interface-symbol.png" alt="search">
+                    <span>Search for images </span>
+                </div>
+                <div id="all-images" class="flex-centered">
+                    <span>All images</span>
+                    <img src="images/down.png" alt="dropdown">
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-bottom flex">
+            <div>Read more about <span>Content License</span></div>
+            <div>Free image by <span>alba 1970</span></div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="categories flex">
+        <div class="transparent-btn flex-centered" id="home-btn">
+            <img src="images/home.png " alt="home ">
+            <span>Home</span>
+        </div>
+        <div class="transparent-btn flex-centered">
+            <img src="images/camera.png " alt="camera ">
+            <span>Photos</span>
+        </div>
+        <div class="transparent-btn flex-centered">
+            <img src="images/brush.png" alt="paint">
+            <span>Illustrations</span>
+        </div>
+        <div class="transparent-btn flex-centered ">
+            <img src="images/pen-tool.png" alt="Vectors">
+            <span>Vectors</span>
+        </div>
+        <div class="transparent-btn flex-centered">
+            <img src="images/video-camera.png" alt="videos">
+            <span>Videos</span>
+        </div>
+        <div class="transparent-btn flex-centered">
+            <img src="images/music3.png" alt="music">
+            <span>Music</span>
+        </div>
+        <div class="transparent-btn flex-centered">
+            <img src="images/wave-sound.png" alt="sound ">
+            <span>Sound effects</span>
+
+        </div>
+        <div class="transparent-btn flex-centered ">
+            <img src="images/trending-topic.png" alt="gifs ">
+            <span>GIFs</span>
+        </div>
+    </div>
+    <div class="pill-container flex">
+        <div class="pill flex">
+            <span>background</span>
+            <span>wallpaper</span>
+            <span>flowers</span>
+            <span>woman</span>
+
+            <span>business</span>
+            <span>landscape</span>
+            <span>cat</span>
+            <span>people</span>
+
+            <span>money</span>
+            <span>spring</span>
+            <span>dog</span>
+            <span>easter</span>
+            <span>iphone wallpaper</span>
+        </div>
+        <div class="settings-info flex-centered">
+            <div id="settings" class="flex-centered">
+                <img src="images/settings.png" alt="settings icon">
+            </div>
+            <div id="editors" class="flex-centered">
+                <span>Editor's choice</span>
+                <img src="images/down.png" alt="dropdown">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="grid ">
+        <div class="grid-item tall1 one flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> flower&nbsp; bottle&nbsp; fresh</div>
+        </div>
+        <div class="grid-item tall2 two flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> ai&nbsp; aigenerated&nbsp;</div>
+        </div>
+        <div class="grid-item three flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> farm&nbsp; landscape&nbsp; yellow</div>
+        </div>
+        <div class="grid-item four flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> aigenerated&nbsp; fish&nbsp; </div>
+        </div>
+        <div class="grid-itemc five">
+            <div class="overlay2 flex-column">
+                <div class="music-img flex-centered">
+                    <img src="images/play-arrow.png" alt="play" class="play-btn">
+                    <img src="images/music.png" alt="sound waves">
+                </div>
+                <div class="music-info flex">
+                    <img src="images/img5.jpg" alt="album-icon">
+                    <span>For her chill upbeat summer travel vlog...</span>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item tall1 six flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> aigenerated&nbsp; abstract&nbsp;</div>
+        </div>
+        <div class="grid-itemc seven">
+            <div class="overlay2 flex-column">
+                <div class="music-img flex-centered">
+                    <img src="images/play-arrow.png" alt="play" class="play-btn">
+                    <img src="images/music.png" alt="sound waves">
+                </div>
+                <div class="music-info flex">
+                    <img src="images/img7.jpg" alt="album-icon">
+                    <span>Groovy ambient funk</span>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item tall3 eight flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> tiger&nbsp; nature&nbsp; green</div>
+        </div>
+
+        <div class="grid-item tall1 nine flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> woman&nbsp; potrait&nbsp; fashion</div>
+
+        </div>
+        <div class="grid-itemc tall2 ten">
+            <div class="flex-column overlay3 music-playlist">
+                <div class="playlist flex">
+                    <img src="images/musical-note.png" alt="musical note">
+                    <span>Music Playlist</span>
+                </div>
+                <div class="playlist-info flex-column">
+                    <span>Childrens music</span>
+                    <span>46 tracks . 1hr 34mins</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="grid-item tall1 eleven flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> emotions&nbsp; to&nbsp; travel</div>
+        </div>
+        <div class="grid-item tall1 twelve flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> bee&nbsp; flower&nbsp; wallpaper</div>
+        </div>
+        <div class="grid-item tall1 thirteen flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div id="video" class="flex-centered">
+                <img src="images/zoom.png" alt="video-camera">
+            </div>
+
+            <div class="sher-section2"> pink&nbsp; ink&nbsp; paint&nbsp; that
+
+                <span><b>HD</b> 00:37</span>
+            </div>
+        </div>
+        <div class="grid-item tall2 fourteen flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> woman&nbsp; potrait&nbsp; fashion</div>
+        </div>
+        <div class="grid-item tall1 fifteen flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> ai&nbsp; aigenerated&nbsp; </div>
+        </div>
+        <div class="grid-itemc tall2 sixteen">
+            <div class="flex-column overlay3 music-playlist">
+                <div class="playlist flex">
+                    <img src="images/musical-note.png" alt="musical note">
+                    <span>Music Playlist</span>
+                </div>
+                <div class="playlist-info flex-column">
+                    <span>Nature Sleep Sounds</span>
+                    <span>35 tracks . 3hrs 52mins</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid-item tall1 seventeen flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> green&nbsp; food&nbsp; soup</div>
+        </div>
+        <div class="grid-itemc tall1 eighteen">
+            <div class="flex-column overlay3 music-playlist">
+                <div class="playlist flex">
+                    <img src="images/musical-note.png" alt="musical note">
+                    <span>Music Playlist</span>
+                </div>
+                <div class="playlist-info flex-column">
+                    <span>Cyberpunk/Future sounds</span>
+                    <span>37 tracks . 1hr 36mins</span>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item tall1 nineteen flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> banana&nbsp; tree&nbsp; fruit</div>
+        </div>
+        <div class="grid-item tall2 twenty flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> flamingo&nbsp; nature&nbsp; bird</div>
+        </div>
+
+        <div class="grid-item tall3 twenty-one flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> beautiful&nbsp; pink&nbsp; woman</div>
+        </div>
+        <div class="grid-item tall2 twenty-two flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> aigenerated&nbsp; blossoms&nbsp; wedding</div>
+        </div>
+        <div class="grid-item tall1 twenty-three flex">
+            <div class="sher-section flex-centered">
+                <div class="flex top-icons">
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/bookmark.png" alt="bookmark"></div>
+
+                    <div class="sher-section-icons flex-centered">
+                        <img src="images/like.png" alt="heart">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/award.png" alt="award" style="width: 120%;">
+                </div>
+            </div>
+
+            <div class="sher-section2"> aigenerated&nbsp; chicken&nbsp; </div>
+
+        </div>
+    </div>
+
+
+    <div class="discover-more flex-centered">
+        <div class="transparent-btn">
+            Discover More
+        </div>
+    </div>
+
+    <div class="final-section flex">
+        <div class="like-green flex-centered">
+            <img src="images/like-green.png" alt="like green">
+        </div>
+        <div class="final-section-txt flex-column">
+            <span>Free media you can use anywhere</span>
+            <span>Pixabay is a vibrant community of creatives, sharing royalty-free images, videos, audio and other media. All content is released by Pixabay under the Content License, which makes it safe to use without asking for permission or giving credit to the artist - even for certain commercial purposes.</span>
+            <div>Learn more about our license</div>
+        </div>
+    </div>
+
+
+    <footer class=" footer flex">
+        <div class="footer-info flex-column">
+            <span id="logo">Pixabay</span>
+            <span>Over 4.7 million+ high quality stock images, videos and music shared by our talented community.</span>
+            <div class="footer-logos flex-centered">
+                <img src="images/instagram.png" alt="instagram">
+                <img src="images/pinterest.png" alt="pinterest">
+                <img src="images/twitter.png" alt="twitter">
+                <img src="images/facebook.png" alt="facebook">
+            </div>
+
+
+        </div>
+        <div class="footer-links flex">
+            <ul>
+                <li>Discover</li>
+                <li>Editor's Choice</li>
+                <li>Curated Collections</li>
+                <li id="new">Pixabay Radio &nbsp;</li>
+                <li>Popular Images</li>
+                <li>Popular Videos</li>
+                <li>Popular Music</li>
+                <li>Popular Searches</li>
+            </ul>
+
+            <ul>
+                <li>Community</li>
+                <li>Blog</li>
+                <li>Forum</li>
+                <li>Creators</li>
+                <li>Cameras</li>
+            </ul>
+            <ul>
+                <li>About</li>
+                <li>About Us</li>
+                <li>FAQ</li>
+                <li>License Summary</li>
+                <li>Terms of Service</li>
+                <li>Privacy Policy</li>
+                <li>Cookies Policy</li>
+                <li>Digital Services Act</li>
+                <li>Report Content</li>
+                <li>API</li>
+            </ul>
+
+
+        </div>
+    </footer>
+</div>
+
+<div id="footer-bottom" class="flex-centered">
+    <span>This site is protected by reCAPTCHA and the Google <span class="black-text">Privacy Policy</span> and <span class="black-text">Terms of Service</span> apply.</span>
+</div>
+
+</section>
+    
+</body>
+
+</html>
+
+</html>
+
+</html>
